@@ -1,4 +1,5 @@
 name: Publish Haneen Love Gift to GitHub Pages
+# Trigger a fresh deployment after Pages is enabled in repository settings.
 
 on:
   push:
