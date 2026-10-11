@@ -22,7 +22,7 @@ npm run build
 ```
 
 ## Deployment
-The `.github/workflows/pages.yml` workflow tests and builds the app, uploads the `dist` artifact, then deploys it to GitHub Pages on pushes to `feature/nona-migration`. GitHub Pages must allow **GitHub Actions** as its build/deployment source.
+The `.github/workflows/pages.yml` workflow tests and builds the app, uploads the `dist` artifact, then deploys it to GitHub Pages on pushes to `main`. GitHub Pages must allow **GitHub Actions** as its build/deployment source.
 
 ## Migration safety
-Work is isolated on `feature/nona-migration`. No project files are added directly to `main`, and this branch must not be merged without explicit approval.
+The reviewed migration has been merged into `main`. Future deployment runs are triggered by pushes to `main`.
