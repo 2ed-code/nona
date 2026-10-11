@@ -2,7 +2,7 @@ name: Publish Haneen Love Gift to GitHub Pages
 
 on:
   push:
-    branches: ["feature/nona-migration"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
